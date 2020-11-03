@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    android:Theme="android:/style/Theme.Holo.Light.DarkActionBar"-->
+
+    <item
+        android:id="@+id/menu_search_item"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+
+<!--    <item-->
+<!--        android:id="@+id/menu_setting_item"-->
+<!--        android:orderInCategory="1"-->
+<!--        android:title="Settings"-->
+<!--        app:showAsAction="never" />-->
+</menu>
